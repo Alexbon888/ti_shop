@@ -42,6 +42,7 @@ class TITexts {
   static const String orSignInWith = "Or Sign In With";
   static const String orSignUpWith = "Or Sign Up With";
   static const String iAgreeTo = "I Agree To";
+  static const String and = "and";
   static const String privacyPolicy = "Privacy Policy";
   static const String termOfUse = "Term Of Use";
   static const String verificationCode = "Verification Code";
