@@ -48,6 +48,7 @@ class TITexts {
   static const String verificationCode = "Verification Code";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend Email In";
+  static const String tiContinue = "Continue";
 
   // -- home
   static const String homeAppbarTitle = "Good Day For Shopping";
