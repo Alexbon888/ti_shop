@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:ti_shop/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:ti_shop/features/authentication/screens/signup/signup.dart';
 import 'package:ti_shop/utils/constants/sizes.dart';
 import 'package:ti_shop/utils/constants/texts_string.dart';
@@ -46,7 +47,7 @@ class TILoginForm extends StatelessWidget {
                 ),
         
                 // forget password
-                TextButton(onPressed: () {}, child: const Text(TITexts.forgetPassword),)
+                TextButton(onPressed: () => Get.to(() => const ForgetPassword()), child: const Text(TITexts.forgetPassword),)
               ],
             ),
             const SizedBox(height: TISizes.spaceBtwSections,),
